@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Russel Fabroa - AselDev Software Engineer Portfolio</title>
+
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/home.css">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="app-layout tech-bg">
+        <nav class="navbar navbar-expand-lg navbar-dark top-navbar">
+            <div class="container-fluid">
+
+                <!-- Brand -->
+                <a class="navbar-brand d-flex align-items-center" href="">
+                    <span class="bi bi-layers-fill nav-icon"></span>
+                    <span class="fw-semibold ms-2">AselDev Portfolio</span>
+                </a>
+
+                <!-- Toggle (Mobile) -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+                    aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Menu -->
+                <div class="navbar-collapse collapse" id="mainNavbar">
+                    <ul class="navbar-nav mb-lg-0 mb-2 ms-auto">
+
+                        <li class="nav-item">
+                            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                                <span class="bi bi-house-door-fill nav-icon"></span>
+                                <span class="nav-text">Home</span>
+                            </NavLink>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">
+                                <span class="bi bi-person-fill nav-icon"></span>
+                                <span class="nav-text">About</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">
+                                <span class="bi bi-code-slash nav-icon"></span>
+                                <span class="nav-text">Skills</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experience">
+                                <span class="bi bi-briefcase-fill nav-icon"></span>
+                                <span class="nav-text">Experience</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">
+                                <span class="bi bi-folder-fill nav-icon"></span>
+                                <span class="nav-text">Projects</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">
+                                <span class="bi bi-envelope-fill nav-icon"></span>
+                                <span class="nav-text">Contact</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/RusselFabroa" target="_blank">
+                                <span class="bi bi-github nav-icon"></span>
+                                <span class="nav-text">GitHub</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <main class="main-content">
+
+
+            <section class="hero-advanced" id="home">
+                <div class="hero-container">
+
+                    <!-- LEFT CONTENT -->
+                    <div class="hero-left">
+                        <span class="hero-badge">AselDev</span>
+
+                        <h1>
+                            Custom Software <br />
+                            Built for Your Needs
+                        </h1>
+
+                        <p class="hero-description">
+                            I help teams and individuals turn ideas into working software—
+                            from web applications and APIs to automation and data integration—
+                            built with proven technologies and best practices.
+                        </p>
+
+                        <div class="hero-actions">
+                            <a href="#projects" class="btn-primary">View Projects</a>
+                            <a href="#contact" class="btn-outline">Contact Me</a>
+                        </div>
+                    </div>
+
+                    <!-- RIGHT VISUAL -->
+                    <div class="hero-right">
+
+                        <!-- Floating Icons -->
+                        <span class="tech-icon icon-api bi bi-diagram-3"></span>
+                        <span class="tech-icon icon-cloud bi bi-cloud-arrow-up"></span>
+                        <span class="tech-icon icon-db bi bi-database"></span>
+                        <span class="tech-icon icon-code bi bi-code-slash"></span>
+
+                        <!-- Owner Image -->
+                        <div class="hero-image-wrapper">
+                            <!-- Replace src with your image -->
+                            <img src="images/AselBot.png" alt="Russel Fabroa - AselDev" />
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+
+
+            <!-- ABOUT ASElDEV (SaaS-style) -->
+            <section class="about-saas" id="about">
+                <div class="container text-center">
+
+                    <h2 class="section-title">
+                        Focused. Practical. Reliable.
+                    </h2>
+
+                    <p class="section-subtitle">
+                        AselDev represents my work as a solo software engineer,
+                        delivering enterprise-ready systems and automation solutions
+                        designed for real-world operations.
+                    </p>
+
+                    <div class="about-grid">
+
+                        <!-- Card 1 -->
+                        <div class="about-card animate-card">
+                            <div class="about-icon animate-icon">
+                                <i class="bi bi-window"></i>
+                            </div>
+                            <h4>Application Development</h4>
+                            <p>
+                                I develop web and internal applications using
+                                <strong>C# / .NET and Blazor</strong>,
+                                focusing on clean architecture, performance,
+                                and long-term maintainability.
+                            </p>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="about-card animate-card">
+                            <div class="about-icon animate-icon">
+                                <i class="bi bi-diagram-3"></i>
+                            </div>
+                            <h4>Automation & System Integration</h4>
+                            <p>
+                                I design automation solutions using the
+                                <strong>Microsoft Power Platform</strong>,
+                                along with APIs and background services
+                                to streamline workflows and connect systems.
+                            </p>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div class="about-card animate-card">
+                            <div class="about-icon animate-icon">
+                                <i class="bi bi-bar-chart"></i>
+                            </div>
+                            <h4>Data, Monitoring & Insights</h4>
+                            <p>
+                                I build dashboards, logging, and reporting solutions
+                                using <strong>Tableau</strong> and system-level monitoring
+                                to support data-driven decision-making.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+
+            <!-- OWNER INTRODUCTION -->
+
+            <section class="section owner-section" id="owner">
+                <div class="container">
+
+                    <h2 class="section-title text-center">Meet the Engineer</h2>
+
+                    <div class="owner-grid">
+
+                        <!-- LEFT: IMAGE -->
+                        <div class="owner-image-wrapper">
+                            <img src="images/russel3.png" alt="Russel Fabroa - Software Engineer" class="owner-image" />
+                        </div>
+
+                        <!-- RIGHT: CONTENT -->
+                        <div class="owner-content">
+                            <h3>Russel Fabroa</h3>
+
+                            <p class="section-text">
+                                I am a <strong>Software Engineer</strong> currently working at
+                                <strong>TDK Philippines Corporation</strong>, with hands-on experience
+                                in building enterprise-grade applications, internal automation tools,
+                                and production data systems.
+                            </p>
+
+                            <p class="section-text">
+                                My primary expertise is in <strong>C# / .NET and Blazor</strong>,
+                                complemented by data visualization using <strong>Tableau</strong>
+                                and business process automation through the
+                                <strong>Microsoft Power Platform (Power Apps, Power Automate, SharePoint)</strong>.
+                            </p>
+
+                            <ul class="owner-highlights">
+                                <li>C# / .NET & Blazor Development</li>
+                                <li>Enterprise & Internal Systems</li>
+                                <li>Power Platform & M365 Automation</li>
+                                <li>Tableau Dashboards & Reporting</li>
+                                <li>API & System Integration</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- SKILLS -->
+            <section class="section section-light" id="skills">
+                <div class="container">
+
+                    <h2 class="section-title fade-in text-center">Technical Skills</h2>
+
+                    <div class="skills-grid">
+
+                        <!-- BACKEND -->
+                        <div class="skill-card fade-in delay-1">
+                            <h4>Backend & APIs</h4>
+                            <span>C# / .NET</span>
+                            <span>ASP.NET Core</span>
+                            <span>Blazor (Server & WASM)</span>
+                            <span>Entity Framework Core</span>
+                            <span>REST API Design</span>
+                        </div>
+
+                        <!-- FRONTEND -->
+                        <div class="skill-card fade-in delay-2">
+                            <h4>Frontend</h4>
+                            <span>Blazor (MudBlazor)</span>
+                            <span>JavaScript (ES6+)</span>
+                            <span>HTML / CSS</span>
+                            <span>Responsive UI</span>
+                        </div>
+
+                        <!-- DATA & AUTOMATION -->
+                        <div class="skill-card fade-in delay-3">
+                            <h4>Data, Automation & Tools</h4>
+                            <span>Oracle</span>
+                            <span>MySQL</span>
+                            <span>SignalR (Real-time)</span>
+                            <span>Hangfire (Background Jobs)</span>
+                            <span>Serilog (Logging)</span>
+                            <span>Power Apps & Power Automate</span>
+                            <span>Tableau Dashboards</span>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- EXPERIENCE -->
+            <section class="section" id="experience">
+                <div class="container">
+
+                    <h2 class="section-title fade-in custom-underline text-center">Professional Experience</h2>
+
+                    <div class="timeline">
+
+                        <!-- TDK EXPERIENCE -->
+                        <div class="timeline-item fade-in delay-1">
+                            <h4>Software Engineer – DX Team</h4>
+                            <span class="timeline-company">
+                                TDK Philippines Corporation
+                            </span>
+                            <span class="timeline-period">
+                                Digital Transformation & Automation
+                            </span>
+
+                            <p>
+                                Part of the Digital Transformation (DX) team, focused on
+                                designing, developing, and deploying internal systems
+                                that improve operational efficiency and data visibility.
+                            </p>
+
+                            <p>
+                                My responsibilities include building web applications using
+                                <strong>C# / .NET and Blazor</strong>, developing automation solutions
+                                with the <strong>Microsoft Power Platform</strong>, and creating
+                                dashboards and reports using <strong>Tableau</strong>.
+                            </p>
+
+                            <p>
+                                I also work on system integration, production data monitoring,
+                                and workflow automation—supporting data-driven decision-making
+                                across manufacturing and operations teams.
+                            </p>
+                        </div>
+
+                        <!-- FREELANCE EXPERIENCE -->
+                        <div class="timeline-item fade-in delay-2">
+                            <h4>Freelance Web Developer</h4>
+                            <span class="timeline-company">
+                                Independent / Contract-Based
+                            </span>
+
+                            <p>
+                                Working as a freelance web developer, delivering custom web
+                                applications, internal tools, and automation solutions
+                                based on client requirements.
+                            </p>
+
+                            <p>
+                                Projects include building CRUD-based systems, REST APIs,
+                                database-driven applications, and lightweight dashboards
+                                using modern development practices.
+                            </p>
+
+                            <p>
+                                I handle the full development lifecycle—from requirement
+                                analysis and system design to deployment and maintenance.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- PROJECTS -->
+            <section class="section section-light" id="projects">
+                <div class="container">
+
+                    <h2 class="section-title fade-in text-center">Key Projects</h2>
+
+                    <div class="projects-grid">
+
+                        <!-- PROJECT 1 -->
+                        <div class="project-card fade-in delay-1">
+                            <h4>Production & Attendance System</h4>
+                            <p>
+                                Developed an integrated system consolidating production
+                                and attendance data from Oracle and MySQL, providing
+                                real-time monitoring and automated reporting using
+                                Blazor and .NET.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>.NET</span>
+                                <span>Blazor</span>
+                                <span>Oracle</span>
+                                <span>MySQL</span>
+                            </div>
+                        </div>
+
+                        <!-- PROJECT 2 -->
+                        <div class="project-card fade-in delay-2">
+                            <h4>Turnstile Blocking Automation</h4>
+                            <p>
+                                Implemented automated turnstile access control
+                                based on attendance validation, shift schedules,
+                                and business rules to improve compliance and security.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>Automation</span>
+                                <span>Access Control</span>
+                                <span>Business Rules</span>
+                            </div>
+                        </div>
+
+                        <!-- PROJECT 3 -->
+                        <div class="project-card fade-in delay-3">
+                            <h4>Power Platform Automation</h4>
+                            <p>
+                                Built Power Apps and Power Automate workflows to
+                                streamline approvals, notifications, and recurring
+                                operational processes across departments.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>Power Apps</span>
+                                <span>Power Automate</span>
+                                <span>M365</span>
+                            </div>
+                        </div>
+
+                        <!-- PROJECT 4 -->
+                        <div class="project-card fade-in delay-1">
+                            <h4>Internal APIs & Background Services</h4>
+                            <p>
+                                Designed secure REST APIs, background jobs,
+                                and real-time integrations using Hangfire and
+                                SignalR to support internal enterprise systems.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>REST API</span>
+                                <span>Hangfire</span>
+                                <span>SignalR</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- CONTACT -->
+            <section class="section contact-section" id="contact">
+                <div class="fade-in container text-center">
+
+                    <h2 class="section-title">Let’s Work Together</h2>
+
+                    <p class="contact-text">
+                        I am open to collaboration, enterprise system development,
+                        automation initiatives, and engineering discussions.
+                    </p>
+
+                    <a href="mailto:fabroa.russel246@gmail.com" class="btn-primary contact-btn">
+                        Contact Me
+                    </a>
+
+                </div>
+            </section>
+
+            <!-- FOOTER -->
+            <footer class="site-footer">
+                <div class="footer-grid container">
+
+                    <!-- BRAND -->
+                    <div class="footer-brand">
+                        <h4>AselDev</h4>
+                        <p>
+                            Solo software engineering focused on enterprise systems,
+                            automation, and digital transformation.
+                        </p>
+                    </div>
+
+                    <!-- LINKS -->
+                    <div class="footer-links">
+                        <h5>Quick Links</h5>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#experience">Experience</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- CONTACT -->
+                    <div class="footer-contact">
+                        <h5>Contact</h5>
+                        <p>
+                            <a href="mailto:fabroa.russel246@gmail.com">
+                                fabroa.russel246@gmail.com
+                            </a>
+                        </p>
+                        <p>
+                            <a href="https://github.com/RusselFabroa" target="_blank">
+                                GitHub Profile
+                            </a>
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="footer-bottom">
+                    © 2025 Russel Fabroa • AselDev
+                </div>
+            </footer>
+
+        </main>
+    </div>
+
+
+</body>
+
+</html>
